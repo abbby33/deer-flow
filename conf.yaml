@@ -1,0 +1,12 @@
+active_provider: openai
+gemini:
+  api_key: ${GOOGLE_API_KEY}
+  max_tokens: 1000
+  model: models/gemini-1.5-flash-8b
+  temperature: 0.7
+openai:
+  api_key: ${OPENAI_API_KEY}
+  max_tokens: 1000
+  model: gpt-3.5-turbo
+  organization: org-IF7q64vc29TltkxDgSWK7HbHz
+  temperature: 0.7
